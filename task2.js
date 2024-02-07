@@ -12,12 +12,23 @@ const items = [
 ];
 
 
-// const cheapone= items.find(item=>item.price <= 10)
-// console.log(cheapone)
+ const cheapone= items.filter(item=>item.price <= 10)
+ console.log(cheapone)
 
 
-// const expensive = items.find(item=>item.price > 500)
-// console.log(expensive)
+const expensive = items.filter(item=>item.price > 500)
+console.log(expensive)
 
+
+// to calculate the full price of the price
 const result = items.reduce((initialnumber, curentItem)=> initialnumber + curentItem.price,0 );
 console.log(result)
+
+
+// to calculate the full price but remove the product which is under $10
+let a = items.filter((item)=>item.price > 10).reduce((v,c)=>v+c.price,0);
+ console.log(a)
+
+
+ let b = items.filter((item)=>item.name.startsWith("b"))
+ 
