@@ -15,17 +15,14 @@ const remove=(index)=>{
 }
 
 
-const markedTask=(mark)=>{
-   arr(mark).completed=true
-}
-
 
 array("kesselle");
 array("nesselle");
 array("aesselle");
 array("iesselle");
 array("zesselle");
-console.log(arr);
+ 
+
 
 remove(1)
 console.log(arr)
