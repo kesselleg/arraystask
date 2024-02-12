@@ -1,28 +1,28 @@
-// a) add task to tasklist,   d) sort task as alphabetical. e) display number of incomplete task
+// // a) add task to tasklist,   d) sort task as alphabetical. e) display number of incomplete task
 
 
 
 
- const arr = [];
+//  const arr = [];
 
-const array=(item)=>{
-   return arr.push(item);
-};
+// const array=(item)=>{
+//    return arr.push(item);
+// };
 
-const remove=(index)=>{
+// const remove=(index)=>{
 
-    return arr.splice(index,1)
-}
+//     return arr.splice(index,1)
+// }
 
 
 
-array("kesselle");
-array("nesselle");
-array("aesselle");
-array("iesselle");
-array("zesselle");
+// array("kesselle");
+// array("nesselle");
+// array("aesselle");
+// array("iesselle");
+// array("zesselle");
  
 
 
-remove(1)
-console.log(arr)
+// remove(1)
+// console.log(arr)
